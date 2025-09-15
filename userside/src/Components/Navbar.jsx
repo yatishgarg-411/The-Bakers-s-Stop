@@ -23,7 +23,6 @@ const navItems = [
     { name: "Menu", path: "/menu" },
     { name: "Outlets", path: "/outlets" },
     { name: "Services", path: "/services" },
-    { name: "Gallery", path: "/gallery" },
     { name: "Contact", path: "/contact" }
 ];
 

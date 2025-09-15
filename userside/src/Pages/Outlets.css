@@ -1,0 +1,185 @@
+/* General */
+.outlets-container {
+    padding-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Hero */
+  .hero-section {
+    padding: 5rem 0;
+    background: linear-gradient(to bottom right, #6a8d73, #3c5c47);
+    color: white;
+  }
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .hero-subtitle {
+    max-width: 768px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+  }
+  
+  /* Outlets Grid */
+  .outlets-grid-section {
+    padding: 5rem 0;
+    background: #fefcf9;
+  }
+  .outlets-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  @media (min-width: 1024px) {
+    .outlets-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .outlet-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  .outlet-card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  .outlet-image-container {
+    position: relative;
+  }
+  .outlet-image {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .outlet-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #3c5c47;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+  }
+  .outlet-content {
+    padding: 2rem;
+  }
+  .outlet-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #5c4033;
+  }
+  .info-item {
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .icon {
+    color: #6a8d73;
+  }
+  .link {
+    color: #5c4033;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .link:hover {
+    color: #6a8d73;
+  }
+  .outlet-actions {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  @media (min-width: 640px) {
+    .outlet-actions {
+      flex-direction: row;
+    }
+  }
+  
+  /* Buttons */
+  .btn {
+    flex: 1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  .btn-sage {
+    background: #3c5c47;
+    color: white;
+  }
+  .btn-sage:hover {
+    background: #2e4a37;
+  }
+  .btn-brown {
+    background: #5c4033;
+    color: white;
+  }
+  .btn-brown:hover {
+    background: #472e25;
+  }
+  .icon-small {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  /* Map */
+  .map-section {
+    padding: 5rem 0;
+    background: white;
+  }
+  .map-container {
+    background: #fefcf9;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  .map-icon {
+    width: 4rem;
+    height: 4rem;
+    color: #3c5c47;
+    margin: 0 auto 1rem;
+  }
+  
+  /* Service Areas */
+  .service-section {
+    padding: 5rem 0;
+    background: #3c5c47;
+    color: white;
+  }
+  .service-grid {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  @media (min-width: 768px) {
+    .service-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .service-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  
