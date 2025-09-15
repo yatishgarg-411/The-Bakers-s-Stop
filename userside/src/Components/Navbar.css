@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .navbar-desktop {
+      display: flex !important;
+    }
+    .navbar-mobile {
+      display: none !important;
+    }
+  }
+  
